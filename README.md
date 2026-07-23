@@ -1,6 +1,6 @@
 🚀 SmartGatePass
 
- A smart Android-based Gate Pass Management System designed to automate and secure the exit process in colleges and universities using QR Code and Firebase.
+ A smart Android-based Gate Pass Management System designed to automate and secure the exit process in colleges and universities using QR Code and Supabase.
 
 📌 Overview
 
@@ -45,12 +45,13 @@ The system consists of "4 types of users"
 ✨ Key Features
 
 - 🔐 Secure Authentication System  
-- 📄 Digital Gate Pass Request System  
+- 📄 Digital Gate Pass Request System
+-    Push Notifications for approvals 
 - 🧾 Department-wise Request Filtering  
 - 📷 QR Code Generation on Approval  
 - ⏳ Time-based Pass Expiry (6 Hours Validity)  
 - 🔍 Real-time QR Verification at Gate  
-- ☁️ Firebase Realtime Database Integration  
+- ☁️ Supabase Realtime Database Integration  
 - 👥 Multi-role Access System  
 
 🔄 System Workflow
@@ -73,7 +74,7 @@ The system consists of "4 types of users"
 | Layer        | Technology |
 |-------------|-----------|
 | Frontend     | Android (Java, XML) |
-| Backend      | Firebase Realtime Database |
+| Backend      | Supabase Realtime Database |
 | Authentication | Firebase Authentication |
 | QR Scanner   | ZXing Library |
 | IDE          | Android Studio |
@@ -93,7 +94,7 @@ SmartGatePass<br>
 └── res             
 
 
-🔥 Firebase (Spark Plan)
+🔥 Supabase (Spark Plan)
 
 - Free tier (Spark Plan)
 - Realtime Database support
@@ -103,8 +104,7 @@ SmartGatePass<br>
 
  🚀 Future Enhancements
 
-- Face Recognition-based Entry System  
-- Push Notifications for approvals  
+- Face Recognition-based Entry System   
 - Advanced Admin Dashboard  
 - Cloud Firestore Migration  
 - Role-based Access Control Improvements  
